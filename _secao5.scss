@@ -1,0 +1,95 @@
+.secao5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    
+    padding: 100px 30px;
+    
+    background-color: rgba(214, 238, 190, 20);
+    opacity: 0px;
+
+
+    & > h1 {
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+        
+
+    .blocos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
+    .bloco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        width: 370px;
+        height: 380px;
+        border-radius: 20px;
+        padding: 30px;
+        
+        background-color: #F8F9FF;
+        box-shadow: 35px 30px 48px 0px rgba(51, 102, 255, 0.051);
+
+        h2 {
+            font-family: Poppins;
+            color: #2D2D2D;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            display: flex;
+            flex-direction: row;
+            font-family: Poppins;
+            color: $color-primary;
+            gap: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: center;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+
+    .frase{
+        font: 400 21px/31.5px $font2;
+        text-align: center;
+        color: $color-primary;
+
+        max-width: 1200px;
+        width: 100%;
+    }
+
+
+
+ 
+    @media(max-width: 550px) {
+        h1 {
+            font-size: 30px;
+            line-height: 140%;
+        }
+    }
+
+}

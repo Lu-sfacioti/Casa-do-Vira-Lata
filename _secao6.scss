@@ -1,0 +1,45 @@
+.secao6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px;
+
+    background-color: white;
+
+
+    h1 {
+        font: 900 45px/130% $font2, sans-serif;
+        text-align: center;
+    }
+
+    .imagens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        padding: 24px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+
+
+
+    @media(max-width: 550px) {
+        padding: 30px;
+
+        .imagens {
+            flex-wrap: wrap;
+        }
+
+        &>h1 {
+            font-size: 30px;
+        }
+    }
+}

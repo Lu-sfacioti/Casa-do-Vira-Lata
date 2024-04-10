@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 60px 40px;
+
+    background-color: #2D2D2D;
+    color: #fff;
+
+
+    h3 {
+        font: 400 14px 'Mulish';
+    }
+
+    &>div {
+        display: flex;
+        gap: 15px;
+    }
+
+}

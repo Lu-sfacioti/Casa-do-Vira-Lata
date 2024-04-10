@@ -1,0 +1,45 @@
+@import "../../components/variaveis";
+
+@import "secao1";
+@import "secao5";
+@import "secao6";
+@import "rodape";
+@import "../../components/botao";
+@import "../../components/dropdown";
+
+
+body {
+    font-family: 'Poppins';    
+}
+
+.logo {
+    animation: rotacao 2s 0s forwards;
+}
+
+
+@keyframes rotacao {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes carrosel {
+    0% {
+        background-image: url('....imagem2');
+    }
+    20% {
+        // 2
+    }
+
+}
+
+
+
+
+
+
